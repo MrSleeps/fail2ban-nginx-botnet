@@ -1,0 +1,6 @@
+[nginx-botnet]
+enabled  = true
+port     = http,https
+filter   = nginx-botnet
+logpath  = /path/to/nginx/log/files/*access*.log
+maxretry = 0
